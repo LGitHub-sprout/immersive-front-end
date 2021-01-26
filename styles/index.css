@@ -8,6 +8,7 @@ fonts:
   font-family: 'Libre Baskerville', serif;
 
 icon pack:
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
   
 Jimages:
@@ -144,7 +145,6 @@ html {
 }
 
 /* Main content */
-main.container,
 .immersive,
 .cta-block,
 .testamonial-block {
@@ -154,6 +154,9 @@ main.container,
 /* Products section */
 .contracts {
   /* border: solid 2px red; */
+}
+main.container {
+  margin: 9em auto;
 }
 .contracts > h2,
 .contracts > p {
@@ -416,7 +419,7 @@ span {
 
 /* Testamonial Block */
 .testamonials {
-  padding: 3em 0 4em 0;
+  padding: 3em 0 8em 0;
   background-color: #ebf2f5;
   overflow: hidden;
   position: relative;
@@ -499,4 +502,88 @@ span {
   color: #efccb3;
   border-radius: 3px;
 }
+
+/* Footer */
+.colophon {
+  background-color: #0c2a42;
+  padding: 3em 0 0 0;
+}
+.social-wrap {
+  padding-bottom: 1em;
+}
+.contact-list li a {
+  color: #efccb3;
+  padding: .75em 0;
+}
+.colophon p {
+  text-align: center;
+  color: linen;
+  font-weight: 300;
+  font-size: 1.25em;
+  margin-top: 0;
+}
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+.contact-list li {
+  padding-bottom: 1em;
+  font-size: 1.25em;
+}
+.social-media,
+.legal {
+  text-align: center;
+}
+.social-media li,
+.legal li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.social-media li a img {
+  height: 30px; /* too fuzy when larger than 30px */
+  width: 30px;
+  display: inline;
+}
+.contact-list li a img {
+  display: inline;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+.legal li a {
+  color: linen;
+  font-size: .75em;
+  text-transform: uppercase;
+}
+.icons p {
+  padding: 4em 0 1.5em 0;
+  margin-top: 5em;
+  font-size: .75em;
+}
+.icons p a {
+  color: #efccb3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
